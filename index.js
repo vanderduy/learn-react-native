@@ -9,5 +9,6 @@ import Acc from './src/component/PostGetData2/Account'
 import Ani from './src/component/animations/Ani'
 import DemoGesture from './src/component/animations/DemoGesture'
 import DemoFlatList from './src/component/DemoListView'
+import Test1 from './src/react-redux/test1'
 
-AppRegistry.registerComponent('LearnReact', () => Ani);
+AppRegistry.registerComponent('LearnReact', () => Test1);
