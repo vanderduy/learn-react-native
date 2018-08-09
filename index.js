@@ -10,5 +10,7 @@ import Ani from './src/component/animations/Ani'
 import DemoGesture from './src/component/animations/DemoGesture'
 import DemoFlatList from './src/component/DemoListView'
 import Test1 from './src/react-redux/test1'
+import indexAuth from './src/auth/indexAuth'
+import AppFirebase from './src/fireBase/components/App'
 
-AppRegistry.registerComponent('LearnReact', () => Test1);
+AppRegistry.registerComponent('LearnReact', () => AppFirebase);

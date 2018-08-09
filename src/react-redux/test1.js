@@ -114,7 +114,7 @@ const subNumber = (num)=>{
     }
 }
 
-store.dispatch(addNumber(8))
+store.dispatch(addNumber(18))
 store.dispatch(addNumber(5))
 store.dispatch(subNumber(2))
 
