@@ -92,7 +92,7 @@ const store = createStore(
 
 //test
 store.subscribe(()=>{
-    console.log('state update : ' , store.getState())
+    // console.log('state update : ' , store.getState())
 })
 // store.dispatch(add)
 // store.dispatch({
@@ -119,7 +119,7 @@ store.dispatch(addNumber(5))
 store.dispatch(subNumber(2))
 
 store.subscribe(()=>{
-    console.log('state update : ' , store.getState())
+    // console.log('state update : ' , store.getState())
 })
 
 

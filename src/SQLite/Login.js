@@ -45,10 +45,10 @@ export default class Login extends Component{
         );
     }
     errorCB(err) {
-        console.log("SQL Error: " + err);
+        // console.log("SQL Error: " + err);
     }
     openCB() {
-        console.log("Database OPENED");
+        // console.log("Database OPENED");
     }
 
     Submit(){
@@ -72,7 +72,7 @@ export default class Login extends Component{
                 }
             })
         })
-        console.log("Query completed");
+        // console.log("Query completed");
         
     }
 

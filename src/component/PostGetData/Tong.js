@@ -55,7 +55,7 @@ export default class Tong extends Component{
             })
         })
         .catch((err)=>{
-            console.log(err)
+            // console.log(err)
         })
     }
 

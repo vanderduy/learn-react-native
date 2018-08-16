@@ -78,7 +78,7 @@ export default class Acc extends Component{
             }
         })
         .catch((err)=>{
-            console.log(err)
+            // console.log(err)
         })
     }
 
@@ -108,7 +108,7 @@ export default class Acc extends Component{
             }
         })
         .catch((err)=>{
-            console.log(err)
+            // console.log(err)
         })
        
     }

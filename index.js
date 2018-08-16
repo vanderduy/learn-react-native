@@ -12,5 +12,8 @@ import DemoFlatList from './src/component/DemoListView'
 import Test1 from './src/react-redux/test1'
 import indexAuth from './src/auth/indexAuth'
 import AppFirebase from './src/fireBase/components/App'
+import Realtime from './src/fireBase/realtime/App'
+import ShowData from './src/fireBase/realtime/App2'
+import Fetch from './src/fetch/index'
 
-AppRegistry.registerComponent('LearnReact', () => AppFirebase);
+AppRegistry.registerComponent('LearnReact', () => Fetch);
