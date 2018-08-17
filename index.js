@@ -15,5 +15,6 @@ import AppFirebase from './src/fireBase/components/App'
 import Realtime from './src/fireBase/realtime/App'
 import ShowData from './src/fireBase/realtime/App2'
 import Fetch from './src/fetch/index'
+import ReduxApi from './src/redux-api/App'
 
-AppRegistry.registerComponent('LearnReact', () => Fetch);
+AppRegistry.registerComponent('LearnReact', () => ReduxApi);
